@@ -1,16 +1,28 @@
-# flutter_application_1
+# Quiz App (Flutter)
 
-A new Flutter project.
+A Flutter quiz application with a pink-themed UI that tests your knowledge through interactive multiple-choice questions.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Real-time scoring and progress tracking
+- Visual feedback for correct and incorrect answers (green/red)
+- Question progression with Next button
+- Results summary with percentage score
+- Restart functionality
+- Clean pink color scheme
 
-A few resources to get you started if this is your first Flutter project:
+## App Structure
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Start View – Welcome screen with "Start Quiz" button
+- Quiz View – Question display, 4 answer choices, score tracker, Next button after answering
+- End View – Final score, percentage, and Restart button
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Quiz Questions
+
+Includes questions about:
+- Real-world business scenarios (Jollibee Cubao in Quezon City)
+- Flutter development concepts
+
+## Built With
+
+Flutter, Dart, Material Design
